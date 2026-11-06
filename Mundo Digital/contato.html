@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contato | Mundo Digital</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= CABEÇALHO ================= -->
+
+    <header class="topo">
+
+        <!-- LOGO + NOME -->
+
+        <div class="marca">
+
+            <div class="logo-redonda">
+                <img src="./hello/lg.png" alt="Logo Mundo Digital">
+            </div>
+
+            <div class="nome-empresa">
+
+                <h1>Mundo Digital</h1>
+
+                <span>
+                    Tecnologia que se adapta ao seu negócio
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <!-- MENU -->
+
+        <nav class="menu">
+
+            <a href="contato.html" class="menu-ativo">
+                Contato
+            </a>
+
+            <a href="compra.html">
+                Compra
+            </a>
+
+            <a href="sobre.html">
+                Sobre
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- ================= ÁREA DE CONTATO ================= -->
+
+    <main class="pagina-contato">
+
+        <section class="contato-container">
+
+
+            <!-- TEXTO -->
+
+            <div class="contato-introducao">
+
+                <span class="texto-tecnologico">
+                    CONEXÃO DIRETA
+                </span>
+
+                <h2>
+                    Vamos conversar?
+                </h2>
+
+                <p>
+                    Tem alguma dúvida, sugestão ou precisa de
+                    mais informações? Envie seus dados para
+                    nossa equipe.
+                </p>
+
+                <div class="linha-tecnologica"></div>
+
+                <div class="contato-info">
+
+                    <div class="info-item">
+
+                        <span class="info-icone">
+                            @
+                        </span>
+
+                        <div>
+                            <strong>
+                                Instagram
+                            </strong>
+
+                            <p>
+                                mundodigital_oficial123
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="info-item">
+
+                        <span class="info-icone">
+                            ◉
+                        </span>
+
+                        <div>
+                            <strong>
+                                E-mail
+                            </strong>
+
+                            <p>
+                                mundodigitalofc9@gmail.com
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="info-item">
+
+                        <span class="info-icone">
+                            ◇
+                        </span>
+
+                        <div>
+                            <strong>
+                                Mundo Digital
+                            </strong>
+
+                            <p>
+                                Tecnologia que aproxima pessoas.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- ================= FORMULÁRIO ================= -->
+
+            <div class="formulario-contato">
+
+                <div class="formulario-topo">
+
+                    <span>
+                        FORMULÁRIO
+                    </span>
+
+                    <h3>
+                        Entre em contato
+                    </h3>
+
+                </div>
+
+
+                <form id="formContato">
+
+
+                    <!-- NOME -->
+
+                    <div class="campo">
+
+                        <label for="nome">
+                            Nome completo
+                        </label>
+
+                        <input
+                            type="text"
+                            id="nome"
+                            name="nome"
+                            placeholder="Digite seu nome completo"
+                            required>
+
+                    </div>
+
+
+                    <!-- EMAIL -->
+
+                    <div class="campo">
+
+                        <label for="email">
+                            E-mail
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Digite seu e-mail"
+                            required>
+
+                    </div>
+
+
+                    <!-- ENDEREÇO -->
+
+                    <div class="linha-campos">
+
+                        <div class="campo">
+
+                            <label for="endereco">
+                                Endereço
+                            </label>
+
+                            <input
+                                type="text"
+                                id="endereco"
+                                name="endereco"
+                                placeholder="Rua / Avenida"
+                                required>
+
+                        </div>
+
+
+                        <div class="campo campo-numero">
+
+                            <label for="numero">
+                                Nº
+                            </label>
+
+                            <input
+                                type="text"
+                                id="numero"
+                                name="numero"
+                                placeholder="123"
+                                required>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- BAIRRO + ESTADO -->
+
+                    <div class="linha-campos">
+
+                        <div class="campo">
+
+                            <label for="bairro">
+                                Bairro
+                            </label>
+
+                            <input
+                                type="text"
+                                id="bairro"
+                                name="bairro"
+                                placeholder="Digite seu bairro"
+                                required>
+
+                        </div>
+
+
+                        <div class="campo">
+
+                            <label for="estado">
+                                Estado
+                            </label>
+
+                            <input
+                                type="text"
+                                id="estado"
+                                name="estado"
+                                placeholder="Ex: RJ"
+                                required>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- TELEFONE -->
+
+                    <div class="campo">
+
+                        <label for="telefone">
+                            Telefone
+                        </label>
+
+                        <input
+                            type="tel"
+                            id="telefone"
+                            name="telefone"
+                            placeholder="(00) 00000-0000"
+                            required>
+
+                    </div>
+
+
+                    <!-- MENSAGEM -->
+
+                    <div class="campo">
+
+                        <label for="mensagem">
+                            Mensagem
+                        </label>
+
+                        <textarea
+                            id="mensagem"
+                            name="mensagem"
+                            placeholder="Digite sua mensagem..."
+                            rows="4"></textarea>
+
+                    </div>
+
+
+                    <!-- BOTÃO -->
+
+                    <button
+                        type="submit"
+                        id="botaoEnviar"
+                        class="botao-enviar">
+
+                        Enviar mensagem
+                        <span>→</span>
+
+                    </button>
+
+
+                    <!-- MENSAGEM DE SUCESSO -->
+
+                    <div
+                        id="mensagemSucesso"
+                        class="mensagem-sucesso">
+
+                        ✓ Mensagem enviada com sucesso!
+                        Em breve entraremos em contato.
+
+                    </div>
+
+                </form>
+
+            </div>
+
+        </section>
+
+
+        <!-- VOLTAR -->
+
+        <a href="index.html" class="voltar-inicio">
+            ← Voltar para a página inicial
+        </a>
+
+    </main>
+
+
+    <!-- ================= RODAPÉ ================= -->
+
+    <footer class="rodape">
+
+        <div class="rodape-marca">
+
+            <div class="logo-redonda pequeno">
+
+                <img
+                    src="./hello/lg.png"
+                    alt="Logo Mundo Digital">
+
+            </div>
+
+            <span>
+                Mundo Digital
+            </span>
+
+        </div>
+
+        <p>
+            © 2026 Mundo Digital — Todos os direitos reservados.
+        </p>
+
+    </footer>
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script>
+
+        const formulario =
+            document.getElementById("formContato");
+
+        const botao =
+            document.getElementById("botaoEnviar");
+
+        const mensagem =
+            document.getElementById("mensagemSucesso");
+
+
+        formulario.addEventListener("submit", function (evento) {
+
+            evento.preventDefault();
+
+
+            botao.disabled = true;
+
+            botao.innerHTML =
+                "Enviando...";
+
+
+            setTimeout(function () {
+
+                botao.innerHTML =
+                    "Mensagem enviada ✓";
+
+                botao.classList.add("enviado");
+
+                mensagem.classList.add("mostrar");
+
+
+                formulario.reset();
+
+
+                setTimeout(function () {
+
+                    botao.disabled = false;
+
+                    botao.innerHTML =
+                        'Enviar mensagem <span>→</span>';
+
+                    botao.classList.remove("enviado");
+
+                }, 3000);
+
+            }, 800);
+
+        });
+
+    </script>
+
+</body>
+
+</html>

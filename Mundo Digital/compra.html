@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Compras | Mundo Digital</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= CABEÇALHO ================= -->
+
+    <header class="topo">
+
+        <!-- LOGO + NOME -->
+        <div class="marca">
+
+            <div class="logo-redonda">
+                <img src="./hello/lg.png" alt="Logo Mundo Digital">
+            </div>
+
+            <div class="nome-empresa">
+                <h1>Mundo Digital</h1>
+                <span>Tecnologia que se adapta ao seu negócio</span>
+            </div>
+
+        </div>
+
+
+        <!-- MENU -->
+        <nav class="menu">
+
+            <a href="contato.html">
+                Contato
+            </a>
+
+            <a href="compra.html" class="menu-ativo">
+                Compra
+            </a>
+
+            <a href="sobre.html">
+                Sobre
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- ================= CONTEÚDO ================= -->
+
+    <main class="pagina-compra">
+
+        <!-- TÍTULO -->
+
+        <section class="cabecalho-compra">
+
+            <span>LOJA MUNDO DIGITAL</span>
+
+            <h2>
+                Encontre o que<br>
+                você procura.
+            </h2>
+
+            <p>
+                Confira nossos produtos e escolha as opções
+                que mais combinam com você.
+            </p>
+
+        </section>
+
+
+        <!-- ================= PRODUTOS ================= -->
+
+        <section class="produtos">
+
+            <!-- PRODUTO 1 -->
+
+            <article class="produto">
+
+                <div class="imagem-produto">
+                    <img src="./hello/11.jpg" alt="Produto Mundo Digital">
+                </div>
+
+                <div class="info-produto">
+
+                    <span class="categoria">
+                        DESTAQUE
+                    </span>
+
+                    <h3>
+                        Site para o cliente
+                    </h3>
+
+                    <p>
+                        Uma opção especial do Mundo Digital
+                        para você. Torne seu negócio conhecido no
+                        mundo inteiro!
+                    </p>
+
+                    <div class="produto-final">
+
+                        <strong>
+                            R$ 799,99
+                        </strong>
+
+                        <button type="button" onclick="adicionarProduto(this)">
+                            Adicionar
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUTO 2 -->
+
+            <article class="produto">
+
+                <div class="imagem-produto">
+                    <img src="./hello/22.jpg" alt="Produto Mundo Digital">
+                </div>
+
+                <div class="info-produto">
+
+                    <span class="categoria">
+                        PROMOÇÃO
+                    </span>
+
+                    <h3>
+                        Sistema interno
+                    </h3>
+
+                    <p>
+                        Aproveite essa opção especial
+                        disponível em nossa loja para o gerenciamento do seu negócio.
+                    </p>
+
+                    <div class="produto-final">
+
+                        <strong>
+                            R$ 999,99
+                        </strong>
+
+                        <button type="button" onclick="adicionarProduto(this)">
+                            Adicionar
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUTO 3 -->
+
+            <article class="produto">
+
+                <div class="imagem-produto">
+                    <img src="./hello/33.jpg" alt="Produto Mundo Digital">
+                </div>
+
+                <div class="info-produto">
+
+                    <span class="categoria">
+                        DESTAQUE
+                    </span>
+
+                    <h3>
+                        Combo Digital
+                    </h3>
+
+                    <p>
+                        Uma combinação pensada para
+                        oferecer uma experiência completa para clientes e funcionários.
+                    </p>
+
+                    <div class="produto-final">
+
+                        <strong>
+                            R$ 1.699,99
+                        </strong>
+
+                        <button type="button" onclick="adicionarProduto(this)">
+                            Adicionar
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUTO 4 -->
+
+            <article class="produto">
+
+                <div class="imagem-produto">
+                    <img src="./hello/4.jpg" alt="Produto Mundo Digital">
+                </div>
+
+                <div class="info-produto">
+
+                    <span class="categoria">
+                        LIMITADO
+                    </span>
+
+                    <h3>
+                        Produto Personalizado
+                    </h3>
+
+                    <p>
+                        Uma opção diferenciada para quem
+                        procura algo especial com produtos alinhados à própria marca.
+                    </p>
+
+                    <div class="produto-final">
+
+                        <strong>
+                            R$ 149,99
+                        </strong>
+
+                        <button type="button" onclick="adicionarProduto(this)">
+                            Adicionar
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUTO 5 -->
+
+            <article class="produto">
+
+                <div class="imagem-produto">
+                    <img src="./hello/5.jpg" alt="Produto Mundo Digital">
+                </div>
+
+                <div class="info-produto">
+
+                    <span class="categoria">
+                        PROMOÇÃO
+                    </span>
+
+                    <h3>
+                        Manutenção
+                    </h3>
+
+                    <p>
+                        Uma alternativa prática e acessível
+                        para você. Corrigir erros, atualizar páginas e melhorar o visual.
+                    </p>
+
+                    <div class="produto-final">
+
+                        <strong>
+                            R$ 99,99
+                        </strong>
+
+                        <button type="button" onclick="adicionarProduto(this)">
+                            Adicionar
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </section>
+
+
+        <!-- ================= CARRINHO ================= -->
+
+        <section class="carrinho">
+
+            <div class="carrinho-topo">
+
+                <div>
+                    <span>SEU PEDIDO</span>
+
+                    <h2>
+                        Carrinho
+                    </h2>
+                </div>
+
+                <div class="quantidade-carrinho">
+                    <span id="quantidade">
+                        0
+                    </span>
+
+                    itens
+                </div>
+
+            </div>
+
+
+            <div id="lista-carrinho" class="lista-carrinho">
+
+                <p class="carrinho-vazio">
+                    Seu carrinho está vazio.
+                    <br>
+                    Adicione algum produto para começar.
+                </p>
+
+            </div>
+
+
+            <div class="total-carrinho">
+
+                <span>
+                    Total
+                </span>
+
+                <strong id="total">
+                    R$ 0,00
+                </strong>
+
+            </div>
+
+
+            <div class="acoes-carrinho">
+
+                <a href="index.html" class="botao-voltar">
+                    Voltar para a loja
+                </a>
+
+                <button
+                    type="button"
+                    id="botao-finalizar"
+                    class="botao-finalizar"
+                    onclick="finalizarCompra()">
+
+                    Finalizar compra
+
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= RODAPÉ ================= -->
+
+    <footer class="rodape">
+
+        <div class="rodape-marca">
+
+            <div class="logo-redonda pequeno">
+
+                <img src="./hello/lg.png" alt="Logo Mundo Digital">
+
+            </div>
+
+            <span>
+                Mundo Digital
+            </span>
+
+        </div>
+
+        <p>
+            © 2026 Mundo Digital — Todos os direitos reservados.
+        </p>
+
+    </footer>
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script>
+
+        let carrinho = [];
+
+        function adicionarProduto(botao) {
+
+            const produto = botao.closest(".produto");
+
+            const nome = produto.querySelector("h3").textContent.trim();
+
+            const precoTexto = produto
+                .querySelector(".produto-final strong")
+                .textContent
+                .replace("R$", "")
+                .replace(".", "")
+                .replace(",", ".");
+
+            const preco = parseFloat(precoTexto);
+
+            carrinho.push({
+                nome: nome,
+                preco: preco
+            });
+
+            atualizarCarrinho();
+
+            botao.textContent = "Adicionado ✓";
+
+            setTimeout(function () {
+                botao.textContent = "Adicionar";
+            }, 1200);
+        }
+
+
+        function atualizarCarrinho() {
+
+            const lista = document.getElementById("lista-carrinho");
+
+            const quantidade = document.getElementById("quantidade");
+
+            const total = document.getElementById("total");
+
+
+            quantidade.textContent = carrinho.length;
+
+
+            if (carrinho.length === 0) {
+
+                lista.innerHTML = `
+                    <p class="carrinho-vazio">
+                        Seu carrinho está vazio.
+                        <br>
+                        Adicione algum produto para começar.
+                    </p>
+                `;
+
+                total.textContent = "R$ 0,00";
+
+                return;
+            }
+
+
+            lista.innerHTML = "";
+
+
+            let valorTotal = 0;
+
+
+            carrinho.forEach(function (produto, index) {
+
+                valorTotal += produto.preco;
+
+
+                const item = document.createElement("div");
+
+                item.classList.add("item-carrinho");
+
+
+                item.innerHTML = `
+                    <div>
+                        <strong>${produto.nome}</strong>
+                        <span>R$ ${produto.preco.toFixed(2).replace(".", ",")}</span>
+                    </div>
+
+                    <button type="button"
+                        onclick="removerProduto(${index})">
+                        ×
+                    </button>
+                `;
+
+
+                lista.appendChild(item);
+
+            });
+
+
+            total.textContent =
+                "R$ " +
+                valorTotal.toFixed(2).replace(".", ",");
+        }
+
+
+        function removerProduto(index) {
+
+            carrinho.splice(index, 1);
+
+            atualizarCarrinho();
+        }
+
+
+        function finalizarCompra() {
+
+            const botao = document.getElementById("botao-finalizar");
+
+
+            if (carrinho.length === 0) {
+
+                alert("Adicione pelo menos um produto ao carrinho.");
+
+                return;
+            }
+
+
+            botao.textContent =
+                "Compra finalizada ✓";
+
+            botao.classList.add("compra-sucesso");
+
+
+            setTimeout(function () {
+
+                carrinho = [];
+
+                atualizarCarrinho();
+
+                botao.textContent =
+                    "Finalizar compra";
+
+                botao.classList.remove("compra-sucesso");
+
+            }, 2500);
+
+        }
+
+    </script>
+
+</body>
+
+</html>
